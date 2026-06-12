@@ -1,0 +1,6 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+    <h2>Страница приложения tasks</h2>
+    <a href="{% url 'tasks:projects_list' %}">Список проектов</a>
+{% endblock %}
